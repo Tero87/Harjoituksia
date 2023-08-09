@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(250, 251, 230);
+}
+
+
+nav{
+     font-family:Verdana !important; 
+     font-size: large;
+     text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    }
+  
+
+.navbar-nav>li:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid transparent;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: ease .25s;
+  }
+  
+  .navbar-nav>li:hover:after {
+    border-bottom: 2px solid pink;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+  
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: lucida;
+}
+
+
+
+
+
+/* An inline-block element is placed as an inline 
+ element (on the same line as adjacent content),  
+ but it behaves like a block element  */ 
+ 
+ 
+ span { 
+    display: inline-block; 
+} 
+
+

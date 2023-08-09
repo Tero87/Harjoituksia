@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var text = "";
+        var i;
+
+        for (i=0; i<16; i++)
+        {
+            text+=i+"<br>";
+        }
+        document.getElementById("demo").innerHTML=text;
+    </script>
+    <p id = demo></p>
+    <script>
+        // create an object:
+        var person = {
+            firstName: "tero",
+            lastName: "alatalo",
+            address: "höyhenkuja",
+            postcode: 889946,
+            fullname : function() {
+                return this.firstname + " " + this.lastName
+            }
+        };
+            var car = {
+            model:"volvo",
+            year:"2017",
+            color:"musta",
+            personCar: function() {
+                return this.model + ", jonka väri on " + this.color;
+            }
+        };
+
+        //display data from the object:
+        document.getElementById("demo").innerHTML = person.FullName() +" "+ "omistaa auton merkiltään" +" "+ car.personCar
+    </script>
+</body>
+</html>

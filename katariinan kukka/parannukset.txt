@@ -1,0 +1,1 @@
+kaikki sivujen kukkakuvat ovaalimuotoon, navigointipalkkiin viivat linkkien ylä ja alapuoelle ja footerin erottaminen viivalla. linkkien väri sininen kuten yleensä. sosiaaliset mediat twitter, instagram facebook yms. taustavärin testaus että toimii eri selaimilla.
