@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
+.row {
+  display: flex;
+  padding-left:20px;
+}
+.container-fluid { 
+    padding-top: 40px;
+    font-size: x-large;
+        font-family: papyrus; 
+        color: brown;
+        text-shadow:
+		-0.2px -0.2px 0 #000,
+		0.2px -0.2px 0 #000,
+		-0.2px 0.2px 0 #000,
+		0.2px 0.2px 0 #000;
+}
+
+body, html {
+    height: 100%;
+  }
+.bg {
+    /* The image used */
+    background-image: url("img/backround.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .otsikko {
+	text-shadow:
+		-0.5px -0.5px 0 #000,
+		0.5px -0.5px 0 #000,
+		-0.5px 0.5px 0 #000,
+		0.5px 0.5px 0 #000;
+        padding-top:30px;  
+        font-family: Papyrus; 
+        color: brown; 
+}

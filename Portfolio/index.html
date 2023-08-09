@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="skillbar.css">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Parallax scrolling div, contains animated header-->
+  <div id="parallax">
+        
+        <div id="navbar">
+            <a href="#skillbar">Taidot</a>
+            <a href="#slideheader">Projektikuvat</a>
+        </script>
+        </div>
+        <!--Header with animation -->
+        <div id="header">
+            <h1 id="headeranimation">Portfolio</h1>
+        </div>
+    
+        <!--Biography about myself -->   
+        <img id="myself" src="Omakuva/Portrait_Placeholder.png" alt="Omakuva">
+        <div id="bio">
+          <h2 id="skillheader">Tietoa</h2>
+
+          <p>
+            Opiskelen OSAO:lla kolmatta vuotta ohjelmistokehittäjäksi. Aloitin ohjelmoinnin perusteista, koska aiemmin en ollut sitä tehnyt. 
+            Alun haasteiden jälkeen olen saanut ajatuksesta kiinni ja kehitystä on tullut. Ohjelmoinnissa ei tule täysin valmiiksi, joten on vielä kehitettävää ja opittavaa tulevaisuudessa.  
+            HTML ja CSS puolta olen harjoitellut paljon erilaisten projektien kautta. Osaan lukea ja tulkita valmiiden pohjien koodia siten, että voin muokata, lisätä omaa koodia sekä valmiita osia liittämällä. 
+          </p>
+              
+            <p>
+              JavaScript-kielestä hallitsen alkeet, jota tässäkin verkkosivustossa olen käyttänyt tiettyjen toimintojen toteuttamiseen. 
+              JavaScrpitin, React –kirjastolla olen luonut laskurisivuston, jossa käyttäjä voi syöttää laskuriin arvoja. Arvojen syötön jälkeen käyttäjä näkee tuloksen sivustolla. 
+              Reactilla osaan muokata valmiita pohjia omiin tarpeisiin sopiviksi. 
+            </p>
+
+            <p>
+              Palvelin puolen ohjelmoinnissa olen käyttänyt PHP-kieltä sekä tietokannoista MySQL:ää. Tein harjoitustyön tietokantoineen PHP:llä. MySQL –tietokantoja olen toteuttanut useita hyödyntäen phpMyAdmin hallintatyökalua. 
+              Tarvittaessa osaan käyttää ja hyödyntää valmiita PHP-koodipohjia muokkaamalla niitä tarpeiden mukaan. PHP-koodin kirjoittamisessa on vielä kehitettävää.
+            </p>
+
+            <p>
+              Toteutin asiakasprojektina WordPress –alustalla WoodenFuture Oy:n verkkokaupan. WordPressin ja ohjelman lisäosien käyttö onnistuu hyvin. 
+              Projektin toteutin itsenäisesti asiakkaan kanssa suunnittelun toteutuksen sekä palvelimelle viennin osalta. Linkki toteuttamalleni sivustolle on <a href="http://www.woodenfuture.com" target="_blank" style="color:white;">www.woodenfuture.com</a>
+            </p>
+
+            <p>Jonkin verran koulussa ja työharjoittelussa on tullut myös 3d-Mallinnusta. 3d-Mallinnusohjelmista tutuksi on tullut selaimessa toimiva Tinkercad ja sovelluksista Blender ja Rhinoceros 3d ja tulostus on tehty Ultimaker Cura sovelluksella.</p>
+            
+            <!--skillbar div -->
+          <div id="skillbar">
+                <h2 id="skillheader">Taidot</h2>
+
+                <p>HTML</p>
+                  <div class="skill_container">
+                    <div class="skills html">8.</div>
+                  </div>
+
+                <p>CSS</p>
+                  <div class="skill_container">
+                    <div class="skills css">7.</div>
+                  </div>
+
+                <p>JavaScript</p>
+                  <div class="skill_container">
+                   <div class="skills js">6.</div>
+                 </div>
+
+                <p>PHP</p>
+                  <div class="skill_container">
+                    <div class="skills php">6.</div>
+                  </div>
+
+                <p>React</p>
+                  <div class="skill_container">
+                    <div class="skills react">6.</div>
+                  </div>
+
+                  <p>WordPress</p>
+                  <div class="skill_container">
+                    <div class="skills wordpress">8.</div>
+                  </div>
+
+            </div>
+        </div>
+        
+        <!--Image gallery of past websites -->
+        <!--Target blank opens image in a new tab -->
+          <h2 id="slideheader">Kuvia aikaisemmista projekteista</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 6</div>
+                  <a target="_blank" href="Portfoliokuvat/Remonttilaskuri.png"><img src="Portfoliokuvat/Remonttilaskuri.png" style="width:100%"></a>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 6</div>
+                  <a target="_blank" href="Portfoliokuvat/Untitled.png"><img src="Portfoliokuvat/Untitled.png" style="width:100%"></a>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 6</div>
+                  <a target="_blank" href="Portfoliokuvat/Untitled2.png"><img src="Portfoliokuvat/Untitled2.png" style="width:100%"></a>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 6</div>
+                  <a target="_blank" href="Portfoliokuvat/Untitled3.png"><img src="Portfoliokuvat/Untitled3.png" style="width:100%"></a>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">5 / 6</div>
+                  <a target="_blank" href="Portfoliokuvat/Untitled4.png"><img src="Portfoliokuvat/Untitled4.png" style="width:100%"></a>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">6 / 6</div>
+                  <a target="_blank" href="Portfoliokuvat/Untitled5.png"><img src="Portfoliokuvat/Untitled5.png" style="width:100%"></a>
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            
+            <div style="text-align:center; padding-bottom: 50px;">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span> 
+            </div>
+    
+  </div>
+  <script src="galleryscript.js"></script>
+</body>
+</html>

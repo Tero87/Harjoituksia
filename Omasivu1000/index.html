@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My portfolio page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+<body>
+
+<!-- Navbar (sit on top, hamburger button on mobile screen) -->
+<div class="w3-top">
+  <div class="w3-bar w3-padding w3-card" style="letter-spacing:6px; font-size: large;" id="navcolor">
+      <a href="#me" class="w3-bar-item w3-button w3-hide-small">Me</a>
+      <a href="#my work" class="w3-bar-item w3-button w3-hide-small">My work</a>
+      <a href="#CV" class="w3-bar-item w3-button w3-hide-small">CV</a>
+      <a href="#Contact" class="w3-bar-item w3-button w3-hide-small">Contact me</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="NavbarFunction()">&#9776;</a>
+    
+    </div>
+    <div id="navb" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium" style="letter-spacing:6px; font-size: large;">
+      <a href="#me" class="w3-bar-item w3-button">Me</a>
+      <a href="#my work" class="w3-bar-item w3-button">My work</a>
+      <a href="#CV" class="w3-bar-item w3-button">CV</a>
+      <a href="#Contact" class="w3-bar-item w3-button">Contact me</a>
+  </div>
+</div>
+<div class="backimg">
+
+<!-- Header -->
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="me">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="img/omakuva.jpg" class="w3-round w3-image" alt="me_img" width="350" height="400">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">My portfolio page<br>
+      <h2 class="w3-center">Me</h2>
+      <p class="w3-xlarge">I'm a web developer student on OSAO Oulu. I'm studying HTML markup language, CSS style sheet language, PHP scripting language, MySQL database system and SQL Query language.<br></p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+    <div class="w3-center" id="my work">
+        <h1 class="w3-center">My work</h1><br>
+
+            <div class="w3-row">
+              <h2>Comic page and database</h2>
+                <div class="w3-col m6 w3-padding-large">
+                  <img src="img2/Untitled.png" class="w3-round w3-image" 
+                  id="modal_img" width="300px" height="100px">
+                </div>
+               <div class="w3-col m6 w3-padding-large">
+                  <img src="img2/Untitled2.png" class="w3-round w3-image"
+                  id="modal_img2" width="300px" height="100px">
+                </div>  
+            </div>
+              <br>
+
+              <div class="w3-center">
+              <img src="img2/Untitled3.png" class="w3-round w3-image"
+              id="modal_img3" width="300px" height="100px">
+            </div>
+
+            <div class="w3-row">
+              <h2>Katariinan Kukka</h2>
+                <div class="w3-col m6 w3-padding-large">
+                  <img src="img2/Untitled4.png" class="w3-round w3-image"
+                  id="modal_img4" width="300px" height="100px">
+                </div>
+                <div class="w3-col m6 w3-padding-large">
+                  <img src="img2/Untitled4.0.png" class="w3-round w3-image"
+                  id="modal_img5" width="300px" height="100px">
+                </div>   
+            </div>
+            <br>
+
+            <div class="w3-center">
+              <h2>Ketunkolo majoitus</h2>
+                  <img src="img2/Untitled5.png" class="w3-round w3-image"
+                  id="modal_img6" width="300px" height="150px">   
+            </div>
+            <br>
+    </div>
+
+  <hr>
+
+  <!--CV section-->
+    <div class="w3-center" id="CV">
+        <h1 class="w3-center">CV</h1><br>
+        <img src="img/cv.png" class="w3-round w3-image" width="200px" height="300px" id="img_cv">
+        <p><button class="w3-button w3-light-grey w3-section"><a id="cvlink" href="download.php?path=CV.pdf">Download CV</a></button></p>
+        <br>
+    </div>
+    <hr>
+  <!-- Contact Section -->
+  <div class="w3-center w3-padding-64" id="Contact">
+    <h1>Contact me</h1><br>
+    <p class=w3-large>From this form, you can leave a message to my email</p>
+      <form action="https://formsubmit.co/seitani1@luukku.com" method="POST">
+        <p><input class="w3-input w3-border" type="text" name="name" placeholder="Full Name" required></p>
+        <p><input class="w3-input w3-border" type="email" name="email" placeholder="Email Address" required></p>
+        <p><textarea class="w3-input w3-border" type="text" name="message" placeholder="Your message" required></textarea></p>
+        <p><button class="w3-button w3-light-grey w3-section" type="submit">Submit</button></p>
+      </form>
+    
+  </div>
+  
+<!-- End page content -->
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-padding-32" id="foot">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a> & Me</p>
+</footer>
+
+   <!-- The Modal div & functions -->
+
+   <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+<script src="modal.js"></script>
+<script src="navbar.js"></script>
+</body>
+</html>
+
+
+<!-- https://www.zoner.fi/tukiohjeet/staattinen-html-php-lomake-smtp-autentikoinnilla/ -->
