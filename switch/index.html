@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input id="age" value="" />
+
+<button onclick="myFunction()">Monesko olit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var rank = Number(document.getElementById("age").value);
+  
+  switch(rank){
+  
+  case 1:
+  document.getElementById("demo").innerHTML = "Olit ensimmäinen";
+  break;
+
+  case 2:
+  document.getElementById("demo").innerHTML ="Olit toinen";
+  break;
+
+  case 3:
+  document.getElementById("demo").innerHTML ="Olit kolmas";
+  break;
+
+  default:
+  document.getElementById("demo").innerHTML ="Ei palkintoa"; 
+  }
+}
+</script>
+</body>

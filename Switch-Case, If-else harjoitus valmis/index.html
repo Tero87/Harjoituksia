@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--miltä fontti näyttää-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--skaalaa millä laitteella sivua katsotaan-->
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <h1>Pinta-ala harjoitus</h1>
+    <br>
+    <div class="dropdown">
+    <label for="shapes">select option:</label>
+    <select onclick="selectfunction()" id="shapes" name="muodot"> <!--choose box, shows hidden boxes based on what user chooses-->
+    <option value="circle"> 1. Circle radius.</option> 
+    <option value="rectangle"> 2. Rectangle area.</option> <!--choose which to calculate-->
+    <br>
+    </select>
+    </div>
+    <br><br>
+    <div class ="input">
+        <p>Write values</p>
+        <div id= "div1" hidden>
+        <input type="" id="radius" value=""/>
+        </div>
+        <div id= "div2" hidden>
+        <input type="" id="stem" value=""/>
+        <input type="" id="height" value=""/>
+        </div>
+        <button onclick="buttonfuction()"> calculate </button> <!--calculates values of either circle or rectangle-->
+        <button onClick="window.location.href=window.location.href">Refresh Page</button>
+    </div>
+    <br>
+    <div class=results>
+    <p><span>tulos: </span><span id="result"></span></p>
+    <p id="result2"></span></p>
+    </div>
+    <br>
+    <div class= "canvas">
+    <canvas id="myCanvas" width="500" height="250" style="border:1px solid chartreuse;",>
+        Your browser does not support the HTML5 canvas tag.</canvas>
+    </div>
+</body>
+</html>
